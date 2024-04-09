@@ -23,6 +23,8 @@ public class SymmetricalBinaryTree {
         return compare(root.left, root.right);
     }
 
+    //注意,这里定义的left,right并不是指左右孩子,而是左右两侧镜像对称的结点
+    //这点在"判断是否为相同的树"中能很好地看出来
     private boolean compare(TreeNode left, TreeNode right) {
         // 先排除所有空结点的情况
         if (left == null && right == null) {
