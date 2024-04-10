@@ -1,5 +1,7 @@
 package test8;
 
+//给定二叉树的根节点 root ，返回所有左叶子之和。
+//左叶子:既是叶子结点,又是其父结点的左孩子
 public class SumOfLeftLeaves {
     public int result = 0;
 
